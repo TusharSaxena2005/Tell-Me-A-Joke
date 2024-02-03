@@ -1,0 +1,18 @@
+@media only screen and (max-width:750px){
+    #heading {
+        height: 30vh;
+    }
+    #First-para {
+        font-size: 2rem;
+    }
+    #second-para {
+        font-size: 1.5rem;
+    }
+    #joke{
+        margin-top: 25px;
+    }
+    #joke-para{
+        font-size: 1.2rem;
+    }
+    
+}

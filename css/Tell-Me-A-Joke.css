@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #000029; */
+    background-image: image-set("../images/bg.webp");
+}
+
+#navbar {
+    width: 99.8%;
+    height: 10vh;
+    /* border: 2px solid white; */
+}
+
+#heading {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 36vh;
+    color: white;
+}
+
+#First-para {
+    /* border: 2px solid white; */
+    padding: 10px;
+    font-size: 3.5rem;
+    color: white;
+    /* font-family: "Moon Dance"; */
+    font-family: "Baloo Bhaijaan 2";
+    margin: 10px;
+    text-align: center;
+}
+
+#second-para {
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: "Baloo Bhaijaan 2";
+    margin: 10px;
+}
+
+#First-para,
+#second-para {
+    animation-name: colorChange;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        text-shadow: #000000 0px 0px 5px, #0024ff 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    25% {
+        text-shadow: #000000 0px 0px 5px, #00f9ff 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    50% {
+        text-shadow: #000000 0px 0px 5px, #00ff23 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    75% {
+        text-shadow: #000000 0px 0px 5px, #ffd800 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    100% {
+        text-shadow: #000000 0px 0px 5px, #ff0000 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+}
+
+
+#joke {
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 39vh; */
+    width: 99.8%;
+}
+
+#joke-para {
+    border: 1px solid #02024c;
+    max-width: 800px;
+    min-width: 100px;
+    margin: 50px;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2';
+    box-shadow: 0 0 10px #7e7e7e;
+    border-radius: 26px;
+    padding: 10px 14px 10px 14px;
+    word-spacing: 10px;
+    text-shadow: 0 0 5px #595959;
+    background-color: #00004f80;
+}
+
+#joke-btn {
+    border: none;
+    width: 196px;
+    height: 41px;
+    border-radius: 21px;
+    background-color: #03033ad4;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2';
+    box-shadow: 0 0 5px #b4b4b4;
+    font-size: 1.05rem;
+    text-shadow: 0 0 2px rgb(3, 5, 29);
+}
+
+#joke-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px #b4b4b4;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    font-size: 1.1rem;
+}
